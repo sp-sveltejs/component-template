@@ -2,7 +2,7 @@
 
 ---
 
-# component-template
+# component-template - Typescript by default
 
 A base for building shareable Svelte components. Clone it with [degit](https://github.com/Rich-Harris/degit):
 
