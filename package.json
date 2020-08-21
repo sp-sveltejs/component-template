@@ -22,7 +22,11 @@
     "rollup-plugin-svelte": "^5.2.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^6.1.0",
-    "svelte": "^3.24.0"
+    "svelte": "^3.24.0",
+    "@tsconfig/svelte": "^1.0.9",
+    "svelte-check": "^1.0.15",
+    "svelte-preprocess": "^4.0.12",
+    "typescript": "^3.9.7"
   },
   "keywords": [
     "svelte"
@@ -41,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/sp-sveltejs/component-template/issues"
   },
-  "homepage": "https://github.com/sp-sveltejs/component-template#readme"
+  "homepage": "https://github.com/sp-sveltejs/component-template#readme",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^5.0.2"
+  }
 }
