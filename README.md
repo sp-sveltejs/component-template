@@ -1,4 +1,4 @@
-*Psst — looking for an app template? Go here --> [sveltejs/template](https://github.com/sveltejs/template)*
+*Psst — looking for an app template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
 
@@ -18,7 +18,7 @@ You can create a package that exports multiple components by adding them to the 
 
 TODO
 
-* [ ] some firm opinions about the best way to test components
+* [X] some firm opinions about the best way to test components
 * [ ] update `degit` so that it automates some of the setup work
 
 
@@ -33,3 +33,15 @@ TODO
 Your package.json has a `"svelte"` field pointing to `src/index.js`, which allows Svelte apps to import the source code directly, if they are using a bundler plugin like [rollup-plugin-svelte](https://github.com/sveltejs/rollup-plugin-svelte) or [svelte-loader](https://github.com/sveltejs/svelte-loader) (where [`resolve.mainFields`](https://webpack.js.org/configuration/resolve/#resolve-mainfields) in your webpack config includes `"svelte"`). **This is recommended.**
 
 For everyone else, `npm run build` will bundle your component's source code into a plain JavaScript module (`dist/index.mjs`) and a UMD script (`dist/index.js`). This will happen automatically when you publish your component to npm, courtesy of the `prepublishOnly` hook in package.json.
+
+## Testing components
+
+Use npm link to test you built component with in any javascript app, i.e., SPFx.
+
+```powershell
+cd my-new-component
+npm link
+
+cd my-spfx-project
+npm link my-new-component
+```
