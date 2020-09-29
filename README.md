@@ -1,4 +1,4 @@
-*Psst — looking for an app template? Go here --> [SharePoint-Repo/sp-svelte-template](https://github.com/SharePoint-Repo/sp-svelte-template)*
+*Psst — looking for an app template? Go here --> [sp-sveltejs/template](https://github.com/sp-sveltejs/template)*
 
 ---
 
