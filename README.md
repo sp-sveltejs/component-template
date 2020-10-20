@@ -36,7 +36,7 @@ For everyone else, `npm run build` will bundle your component's source code into
 
 ## Testing components
 
-Use npm link to test you built component with in any javascript app, i.e., SPFx.
+Use npm link to test your built component in any javascript app, i.e., SPFx.
 
 ```powershell
 cd my-new-component
